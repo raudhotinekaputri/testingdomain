@@ -1,0 +1,199 @@
+/* Warna Hijau Soft */
+:root {
+    --green-soft: #2d6a4f;
+    --green-light: #40916c;
+    --green-lighter: #52b788;
+}
+
+/* Background & Font */
+body {
+    background-color: #f3f6f5;
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--green-soft) !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar a:hover {
+    color: var(--green-lighter) !important;
+}
+
+/* Tombol Hijau Soft */
+.btn-primary {
+    background-color: var(--green-light) !important;
+    border-color: var(--green-light) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--green-lighter) !important;
+    border-color: var(--green-lighter) !important;
+}
+
+/* Card untuk Sub Informasi */
+.card {
+    border: none;
+    background: white;
+    transition: 0.3s;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu .dropdown-item {
+    color: green !important;
+}
+
+.thumbnail-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.foto-produk-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-item {
+    flex: 1 1 calc(33.33% - 10px); /* 3 foto dalam satu baris */
+    max-width: calc(33.33% - 10px);
+    box-sizing: border-box;
+}
+
+.foto-item img {
+    width: 100%;
+    height: 120px; /* Bisa diubah sesuai kebutuhan */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-x: hidden !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    overflow-x: hidden !important;
+}
+
+img, video {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    border-radius: 8px;
+}
+
+.card img, .card video {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 150px;
+    text-align: center;
+}
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.deskripsi-content {
+    color: #2c3e50;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.deskripsi-content h2,
+.deskripsi-content h3,
+.deskripsi-content h4 {
+    color: var(--green-soft);
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.deskripsi-content p {
+    margin-bottom: 1rem;
+}
+
+.deskripsi-content ul,
+.deskripsi-content ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.deskripsi-content li {
+    margin-bottom: 0.5rem;
+}
+
+.deskripsi-content a {
+    color: var(--green-light);
+    text-decoration: underline;
+}
+
+.deskripsi-content a:hover {
+    color: var(--green-lighter);
+}
+
+.deskripsi-content strong {
+    font-weight: bold;
+    color: var(--green-soft);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.btn-primary {
+    background-color: var(--green-light) !important;
+    border-color: var(--green-light) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--green-lighter) !important;
+    border-color: var(--green-lighter) !important;
+}
